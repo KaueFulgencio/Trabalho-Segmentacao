@@ -1,1 +1,94 @@
-.vscode
+# IDE e Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Dataset folders (temporárias/processamento)
+train/
+test1/
+output/
+masks/
+temp/
+tmp/
+
+# Arquivos de imagem temporários
+*.tmp
+temp_*
+preview_*
+
+# Logs e outputs
+*.log
+logs/
+*.out
+
+# Arquivos grandes de dataset (manter apenas dataset_final)
+dataset/
+raw_data/
+original_images/
+
+# Scripts temporários e de desenvolvimento
+test_*.py
+debug_*.py
+temp_*.py
+playground.py
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Arquivos gerados automaticamente
+*_samples.png
+*_visualization.png
+colored_masks_samples.png
+mask_samples.png
+
+# Modelos treinados (se houver)
+models/
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+*.h5
+*.pkl
+
+# Tensorboard logs
+runs/
+tb_logs/
